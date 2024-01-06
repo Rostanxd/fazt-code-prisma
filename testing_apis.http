@@ -1,0 +1,38 @@
+### Get all products
+GET http://localhost:3000/api/products
+Accept: application/json
+Content-Type: application/json
+
+### Get a product
+GET http://localhost:3000/api/products/2
+Accept: application/json
+Content-Type: application/json
+
+### Create a new product
+POST http://localhost:3000/api/products
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "abc",
+  "price": 999,
+  "stock": 10,
+  "categoryId": 1
+}
+
+### Delete a product
+DELETE http://localhost:3000/api/products/1
+
+### Update a product
+PUT http://localhost:3000/api/products/2
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Mac"
+}
+
+### Get all categories
+GET http://localhost:3000/api/categories
+Accept: application/json
+Content-Type: application/json

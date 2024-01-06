@@ -1,0 +1,9 @@
+node_modules
+.idea
+
+# Keep environment variables out of version control
+.env
+
+# Prisma migrations and SQLite DDB are not included in Git
+prisma/dev.db
+prisma/migrations
